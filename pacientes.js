@@ -35,7 +35,7 @@ fs.createReadStream("./csv/ibge-mas-10000.csv")
 function geraCpf() {
     let cpf = "";
 
-    for (let j = 1; j <= 11; j++) {
+    for (let i = 1; i <= 11; i++) {
         cpf += String(parseInt(Math.random() * 9));
     }
 
@@ -45,7 +45,7 @@ function geraCpf() {
 function geraTelefone() {
     let telefone = "119";
 
-    for (let j = 1; j <= 8; j++) {
+    for (let i = 1; i <= 8; i++) {
         telefone += String(parseInt(Math.random() * 9));
     }
 
